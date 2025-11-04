@@ -1,1 +1,4 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/t19xNtmg)
+code: 2IASD20 / djamai asma 
+étape de travail : 
+Ce projet illustre la mise en œuvre du pattern Observer à travers un système de timer intelligent. Le cœur du système est un service de minuteur qui notifie automatiquement plusieurs observateurs à chaque changement de temps. Deux types d'observateurs ont été développés : des horloges affichant l'heure en temps réel et des comptes à rebours qui se désinscrivent automatiquement à zéro. La solution utilise PropertyChangeSupport pour garantir la stabilité du système même avec de nombreux observateurs fonctionnant simultanément. L'architecture modulaire en 4 composants assure une séparation claire des responsabilités et une grande maintenabilité du code.
