@@ -1,22 +1,14 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package org.emp.gl.timer.service;
 
-/**
- *
- * @author tina
- */
-public interface TimerService extends TimeChangeProvider {
+import java.util.List;
 
-    int getMinutes();
+public interface TimerService extends TimeChangeProvider {
+    void start();
+    void stop();
+    List<TimerChangeListener> getListeners();
 
     int getHeures();
-
+    int getMinutes();
     int getSecondes();
-
-    int getDixiemeDeSeconde();
-
+    int getDixiemes();
 }
